@@ -1,2 +1,7 @@
 node_modules
-
+dist
+*.swp
+*.swo
+*.swm
+*.swn
+*.swl
