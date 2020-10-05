@@ -10,7 +10,9 @@
 		"object-curly-spacing": "off",
 		"arrow-parens": "off",
 		"comma-dangle": "off",
-		"require-jsdoc": "off"
+		"require-jsdoc": "off",
+		"no-tabs": "off",
+		"indent": ["error", "tab"]
 	},
 	"extends": ["eslint:recommended", "google"]
 }
