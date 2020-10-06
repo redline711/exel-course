@@ -12,7 +12,9 @@
 		"comma-dangle": "off",
 		"require-jsdoc": "off",
 		"no-tabs": "off",
-		"indent": ["error", "tab"]
+		"indent": ["error", "tab"],
+		"operator-linebreak": "off",
+		"no-debugger": 1,
 	},
 	"extends": ["eslint:recommended", "google"]
 }
