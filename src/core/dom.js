@@ -65,6 +65,11 @@ class Dom {
 		return this.data.id
 	}
 
+	focus() {
+		this.$el.focus()
+		return this
+	}
+
 	css(styles = {}) {
 		Object.keys(styles).forEach(key => {
 			this.$el.style[key] = styles[key]

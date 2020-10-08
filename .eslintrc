@@ -12,7 +12,7 @@
 		"comma-dangle": "off",
 		"require-jsdoc": "off",
 		"no-tabs": "off",
-		"indent": ["error", "tab"],
+		"indent": ["error", "tab", { "SwitchCase": 1  }],
 		"operator-linebreak": "off",
 		"no-debugger": 1,
 		"no-extra-semi": "off"
