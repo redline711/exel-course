@@ -70,7 +70,14 @@ module.exports = {
 		rules: [
 			{
 				test: /\.s[ac]ss$/i,
-				use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader']
+				use: [
+					{
+						loader: MiniCssExtractPlugin.loader,
+						options: { hmr: isDev, reloadAll: true }
+					},
+					'css-loader',
+					'sass-loader'
+				]
 			},
 			{
 				test: /\.js$/,
