@@ -10,7 +10,6 @@ function toButton(button) {
 }
 
 export function createToolbar(s) {
-	console.log('render')
 	const buttons = [
 		{
 			value: { textAlign: 'left' },
